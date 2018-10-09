@@ -1,0 +1,27 @@
+{
+    "name": "apelt-dmitry/smsaero-php-class-yii2-extension",
+    "description": "php  class for smsaero api",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "yii2-extension", "sms", "smsaero"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "d.apelt",
+            "email": "d.apelt@smsaero.ru"
+        }
+    ],
+    "support": {
+        "issues": "https://smsaero.ru/about/contact/",
+        "source": "https://github.com/apelt-dmitry/smsaero-php-class"
+    },
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "require": {
+          "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ApeltDmitry\\SmsaeroApiV2\\": ""
+        }
+    }
+}
